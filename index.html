@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <p>Username:
+<input type="text" name="Username" size="15" maxlength="30" placeholder="Usename">
+        </p>
+        <p>
+            Password:
+            <input type="password" maxlength="30" size="15" placeholder="Password">
+        </p>
+        <p>
+        What did you think about this Gig?</p>
+        <textarea name="comment" cols="47" rows="20" placeholder="text here" maxlength="100" ></textarea>
+        <p>
+            Please select your gender:
+            <br>
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="female">Female
+        </p>
+        <p>Please selecet your subject.
+        <br>
+        <input type="checkbox" name="Subject" value="Web Development">Web Development
+        <input type="checkbox" name="Subject" value="Coding">Coding
+        <input type="checkbox" name="Subject" value="Programming">Programming
+        <input type="checkbox" name="Subject" value="python">Python
+        </p>
+        <p>
+            What device do you  use for Coding/Programming ?
+            <br>
+            <select name="device" multiple>
+            <option value="Hp">Hp</option>
+            <option value="Apple">Apple</option>
+            <option value="Dell">Dell</option>
+            <option value="Lenovo">Lenovo</option>
+            <option value="Samsung">Samsung</option>
+        </select>
+        </p>
+        <p>Upload your photos:</p>
+ <input type="file" name="Pofile Picture" accept="images/*"/><br/>
+ <input type="submit" value="Upload"/>
+    </form>
+</body>
+</html>
